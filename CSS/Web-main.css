@@ -1,0 +1,157 @@
+.clr{
+    clear: both;
+    width: 0px;
+    height: 0px;
+}
+#container{
+    margin: 0 auto;
+    width:1002px;
+}
+#header{
+    height: 128px;
+    background: gray url("../IMAGE/top_bg.jpg");
+}
+#nav li{
+    float: left;
+    width:90px;
+    margin-right: 1px;
+}
+#nav a{
+    font-size: 16px;
+    font-family: "微软雅黑";
+    color: #363636;
+    display: block;
+    width: 89px;
+    height: 35px;
+    line-height: 32px;
+    text-align: center;
+}
+#nav a:hover{
+    color: white;
+    background: url("../IMAGE/nav_on.gif");
+}
+
+#banner{
+    margin:6px 0;
+}
+
+#main{
+
+}
+#lside{
+    height: 483px;
+    width: 694px;
+    border: 1px solid #eeeeee;
+    float: left;
+    border-top:none;
+}
+.subtitle{
+    height: 37px;
+    background: #888888 url("../IMAGE/index_main_top_bg.gif");
+}
+.subtitle img{
+    margin:5px 0 0 10px;
+    float: left;
+}
+.subtitle h1{
+    color: #151515;
+    float: left;
+    margin-left: 10px;
+    font-size: 16px;
+    line-height: 37px;
+    font-family: "Microsoft YaHei UI";
+}
+.subtitle a{
+    display: block;
+    float: right;
+    font-size: 15px;
+    line-height: 37px;
+    margin-right: 10px;
+    color: #555555;
+}
+.four{
+    width: 326px;
+    height: 200px;
+    background:#eeeeee;
+    float: left;
+    margin: 10px;
+}
+.four img{
+    float: left;
+    margin-left: 10px;
+    padding: 6px;
+    background: white;
+}
+.four ul{
+    float: left;
+    margin-left: 10px;
+}
+.four a{
+    font-size: 12px;
+    color: #888888;
+}
+.four a:visited{
+    color:#808080;
+}
+.four a:hover{
+    color: #FF832C;
+}
+.four li{
+    background:url("../IMAGE/service_intro_bg.gif") no-repeat ;
+    padding-left: 10px;
+    font-size: 12px;
+    height: 24px;
+
+}
+.four h2{
+    color: #A0A0A0;
+    margin: 6px 0 6px 10px;
+    font-size: 16px;
+    font-family: "Microsoft YaHei UI";
+}
+#rside{
+    height: 483px;
+    width: 294px;
+    float: right;
+}
+#art{
+    background: #eeeeee;
+    margin-top: 1px;
+    padding-top: 18px;
+}
+#art a{
+    color: #888888;
+    background: url("../IMAGE/article_head.gif")no-repeat;
+    display: block;
+    font-size: 12px;
+    height: 29px;
+    line-height: 29px;
+    padding-left: 30px;
+}
+#art a:hover{
+    color: #FF832C;
+    background: url("../IMAGE/article_on_bg.gif");
+}
+#contact{
+    margin-top: 1px;
+    height: 180px;
+    background: #eeeeee;
+}
+#footer{
+    height: 120px;
+    margin-top: 15px;
+}
+#footer ul{
+    height: 40px;
+    background: #eeeeee;
+}
+#footer li{
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+#footer address{
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: "Microsoft YaHei UI";
+}
